@@ -1,0 +1,51 @@
+/*header section*/
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url('../images/banner/banner3.png');
+    background-size: contain;
+    
+    padding: 100px;    
+    background-repeat: no-repeat; 
+     
+}
+
+.header-section{
+    text-align: right;
+    justify-content: right;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    
+   
+    
+}
+.header-title{
+    flex-direction: column;
+    color: #FFF;
+    
+    
+    
+    font-size: 50px;     
+}
+.header-description{
+     color: #FFF;
+     line-height: 20px;
+     font-size: 15px ;
+     padding-left: 250px;       
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: #005FAC;
+    font-size: 15px;
+    cursor: pointer;       
+}
+.btn-primary:hover{
+    background-color: aqua;
+}
