@@ -49,3 +49,138 @@ header{
 .btn-primary:hover{
     background-color: aqua;
 }
+/* this is main section */
+.section-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.section-title{
+    color: var(--dark-01, #151414);    
+    font-size: 40px;    
+    font-weight: 700;
+    line-height: normal; 
+    padding-left: 40px;   
+}
+.secton-column{
+    text-align: left;
+    
+}
+.section-list{
+    list-style: none;
+    color: var(--dark-02, #444343);
+    font-size: 15px;
+}
+.section-description{
+    padding: 40px;
+    color: var(--dark-02, #444343);
+    font-size: 15px;
+}
+.images-section{
+   padding: 80px 30px;
+}
+/* plan section */
+.plan-section{
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.plan-image{
+    /* gap: 20px; */
+    padding: 50px 50px 0px 50px ;
+}
+.plan-list{
+    text-align: center;
+    color: var(--dark-01, #151414);
+    font-size: 25px;
+}
+.plan-description{
+    text-align: center;
+    color: var(--dark-03, #737272);
+    font-size: 20px;
+}
+/* contact section */
+.contact-section{
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 80px;
+    margin-bottom: 130px;
+    
+    
+}
+.contact-title{
+    color: #FFF;
+    padding: 40px 0px;
+}
+/* footer section */
+.footer-container{
+    display: flex;
+    background-color: #151414;
+    color: white;
+    height: 400px;
+}
+.footer-section{
+    margin-left: 50px; 
+     
+}
+.footer-title{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+}
+.footer-description{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+.footer-email{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+}
+.footer-number{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+}
+.subscribe-section{
+    margin-left: 200px;
+   
+}
+.subscribe-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.footer-class{
+    background: #151414;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 300px;
+    color: #F3F3F3;
+    border-radius: 10px;
+    border: 1px solid;    
+}.btn-subscribe{
+    border-radius: 8px;
+    background: #005FAC;
+    height: 40px;
+    border: none;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;    
+}
+.btn-subscribe:hover{
+    background-color: aqua;
+}
